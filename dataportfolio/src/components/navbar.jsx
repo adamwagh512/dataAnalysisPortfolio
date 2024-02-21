@@ -1,10 +1,20 @@
-import React from "react";
+"use client";
+import React, {useState} from "react";
 import logo from "../../public/assets/logo.png";
 import mobile_logo from "../../public/assets/mobile_logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { BsPersonLinesFill } from "react-icons/bs";
+import { MdOutlineEmail } from "react-icons/md";
+
 const navbar = () => {
+    const [nav, setNav] = useState(true)
+    const handleNav = () => {
+        setNav(!nav)
+    }
+
   return (
     <div className="bg-[#023059] fixed h-20 w-full shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
@@ -35,18 +45,19 @@ const navbar = () => {
               </li>
             </Link>
           </ul>
-          <div className="md:hidden">
+          <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} color="#80F2E7" />
           </div>
         </div>
       </div>
 
-      <div className="fixed left-0 top-0 w-full h-screen bg-black/70">
-        <div className="fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#023059] p-10 ease-in duration-500">
+      <div className={!nav ? ' md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''}>
+        <div className={!nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#023059] p-10 ease-in duration-500' 
+        : "fixed left-[-100%] top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#023059] p-10 ease-in duration-500"}>
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src={mobile_logo} width={200} />
-              <div className="rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer">
+              <Image className="w-[75%]" src={mobile_logo} />
+              <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-900 p-3 cursor-pointer">
                 <AiOutlineClose color="#80F2E7" />
               </div>
             </div>
@@ -78,11 +89,23 @@ const navbar = () => {
                 <li className="py-4 text-sm">Projects</li>
               </Link>
             </ul>
-            <div className="pt-40">
+            <div className="pt-20">
               <p className="uppercase tracking-widest text-[#079DD9]">
                 Lets connect
               </p>
-              <div></div>
+              <div className="flex items-center justify-between my-5 w-full sm:w-[80%]">
+                <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                  <FaLinkedinIn color="#033E8C" size={25} />
+                </div>
+
+                <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                  <MdOutlineEmail color="#033E8C" size={25} />
+                </div>
+
+                <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                  <BsPersonLinesFill color="#033E8C" size={25} />
+                </div>
+              </div>
             </div>
           </div>
         </div>
