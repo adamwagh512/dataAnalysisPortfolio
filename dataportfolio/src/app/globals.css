@@ -26,3 +26,9 @@ body {
     text-wrap: balance;
   }
 }
+
+.carousel-container {
+  max-width: 1200px; /* Adjust the width as needed */
+  max-height: 300px; /* Adjust the height as needed */
+  margin: 0 auto;
+}
