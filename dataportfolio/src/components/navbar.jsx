@@ -35,15 +35,16 @@ const navbar = () => {
 
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Education
-              </li>
-            </Link>
-
-            <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
+            
+            <Link href="/">
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Education
+              </li>
+            </Link>
+           
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} color="#80F2E7" />
@@ -82,11 +83,11 @@ const navbar = () => {
               </Link>
 
               <Link href="/">
-                <li className="py-4 text-sm">Education</li>
+                <li className="py-4 text-sm">Projects</li>
               </Link>
 
               <Link href="/">
-                <li className="py-4 text-sm">Projects</li>
+                <li className="py-4 text-sm">Education</li>
               </Link>
             </ul>
             <div className="pt-20">
