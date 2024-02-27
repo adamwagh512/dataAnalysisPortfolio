@@ -9,9 +9,11 @@ import Tableau from '../../public/assets/tableau.png'
 
 const skills = () => {
   return (
+    <div id='skills'>
+        <br className='my-10 py-10' />
     <div>
         <div>
-            <p className='text-4xl font-bold py-5'>Technical Skills</p>
+            <p className='text-4xl font-bold pt-10 my-10'>Technical Skills</p>
         </div>
         <div className='flex flex-col md:grid md:grid-cols-3 items-center justify-center md:justify-between px-9'>
             <div className='w-[60vw] md:w-[25vw] bg-[#023059] py-5 my-3 px-4 flex-row flex'>
@@ -44,6 +46,7 @@ const skills = () => {
                 <p className='font-bold self-center text-2xl px-5'>Tableau</p>
             </div>
         </div>
+    </div>
     </div>
   )
 }

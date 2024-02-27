@@ -21,25 +21,25 @@ const navbar = () => {
         <Image src={logo} alt="/" width={80} />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
 
-            <Link href="/">
+            <Link href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
 
-            <Link href="/">
+            <Link href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
 
-            <Link href="/">
+            <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             
-            <Link href="/">
+            <Link href="/#education">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Education
               </li>
@@ -70,23 +70,23 @@ const navbar = () => {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase tracking-widest text-[#80F2E7]">
-              <Link href="/">
+              <Link href="/#home" onClick={handleNav}>
                 <li className="py-4 text-sm">Home</li>
               </Link>
 
-              <Link href="/">
+              <Link href="/#about" onClick={handleNav}>
                 <li className="py-4 text-sm">About</li>
               </Link>
 
-              <Link href="/">
+              <Link href="/#skills" onClick={handleNav}>
                 <li className="py-4 text-sm">Skills</li>
               </Link>
 
-              <Link href="/">
+              <Link href="/#projects" onClick={handleNav}>
                 <li className="py-4 text-sm">Projects</li>
               </Link>
 
-              <Link href="/">
+              <Link href="/#education" onClick={handleNav}>
                 <li className="py-4 text-sm">Education</li>
               </Link>
             </ul>

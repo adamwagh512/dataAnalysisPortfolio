@@ -8,7 +8,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 const main = () => {
   return (
-    <div className="flex flex-wrap py-20">
+    <div id="home" className="flex flex-wrap py-20">
     <div className="flex justify-center">
         <Image className="hidden justify-center md:flex h-[70] w-[80vw]" src={md_home} alt="" />
     </div>

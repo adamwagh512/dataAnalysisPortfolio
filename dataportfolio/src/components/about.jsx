@@ -4,8 +4,9 @@ import Image from "next/image";
 
 const about = () => {
   return (
-    <div className="w-[100vw] bg-[#023059]">
-      <p className="text-4xl font-bold py-5">About Me</p>
+    <div id="about" className="w-[100vw] bg-[#023059]">
+      <br className="mx-10"/>
+      <p className="text-4xl font-bold py-10 my-3">About Me</p>
       <div className="flex flex-col items-center md:flex-row py-4 px-4 md:tracking-widest md:leading-loose md:items-start md:text-xl">
         <Image className="" src={updatedphoto} />
         <p className="py-5 px-4 md:py-0">
