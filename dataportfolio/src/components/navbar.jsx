@@ -96,15 +96,21 @@ const navbar = () => {
               </p>
               <div className="flex items-center justify-between my-5 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                  <a href="https://www.linkedin.com/in/adam-wagh/" target="_blank">
                   <FaLinkedinIn color="#033E8C" size={25} />
+                  </a>
                 </div>
 
                 <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                  <a href="mailto:adamwagh@gmail.com">
                   <MdOutlineEmail color="#033E8C" size={25} />
+                  </a>
                 </div>
-
+                
                 <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+                <Link href='/assets/documents/AdamWagh_DataResume.pdf' download target="_blank">
                   <BsPersonLinesFill color="#033E8C" size={25} />
+                </Link>
                 </div>
               </div>
             </div>

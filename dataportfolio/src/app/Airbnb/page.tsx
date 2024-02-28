@@ -31,20 +31,13 @@ const page = () => {
             <p className="">Project</p>
             <p className="font-bold text-2xl">Overview</p>
             <p className="py-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            An analysis was conducted on Airbnb data from New York City listings, resulting in the creation of a Tableau dashboard equipped with cascading filters. Users can conveniently filter by room type, zip code, reviews, and cost, facilitating a tailored exploration of accommodation options to swiftly find an Airbnb that fits their needs. Throughout this project, I gained valuable insights into data visualization techniques and dashboard design principles. I learned the importance of user-centric design and the power of interactive features in enhancing the user experience. Additionally, the process of cleaning and preparing the data taught me valuable lessons about data integrity and the importance of thorough data validation. Overall, this project provided an enriching experience that deepened my understanding of data analysis and visualization, while also highlighting the importance of usability and data quality in dashboard development.
             </p>
-            <button className="bg-white rounded-lg text-black px-8 mt-4 mr-8">
-              Demo
+            <a href="https://public.tableau.com/app/profile/adam.wagh/viz/AirbnbNYCDataExplorationDashboard_17068287009710/AirbnbNYCDataExplorationDashboard" target="_blank">
+            <button className="bg-[#80F2E7] rounded-lg text-black px-5 py-3 mt-4 mr-8">
+              View Dashboard
             </button>
-            <button className="bg-white rounded-lg text-black px-8 mt-4">
-              Code
-            </button>
+            </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
             <div className="p-2">

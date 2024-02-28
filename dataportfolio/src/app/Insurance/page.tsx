@@ -31,20 +31,13 @@ const page = () => {
             <p className="">Project</p>
             <p className="font-bold text-2xl">Overview</p>
             <p className="py-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            This project marked my inaugural Python analysis undertaken during the Codecademy Python course, where I was tasked with delving into health insurance costs. Beginning with a database provided, I meticulously cleaned and organized the data before proceeding to compare customer health insurance costs across various factors. Despite its challenges, such as navigating new technologies and managing complex datasets, this project provided an invaluable opportunity for personal growth. I learned the importance of patience and attention to detail in data cleaning and organization, as well as the significance of clear communication in presenting insights effectively. Through this analysis, I gained a deeper understanding of the multifaceted influences on insurance premiums, offering valuable insights for individuals and insurers to make informed decisions about healthcare coverage.
             </p>
-            <button className="bg-white rounded-lg text-black px-8 mt-4 mr-8">
-              Demo
+            <a href="https://github.com/adamwagh512/us_medical_insurance/blob/main/python-portfolio-project-starter-files/us-medical-insurance-costs.ipynb" target="_blank">
+            <button className="bg-[#80F2E7] rounded-lg text-black px-5 py-3 mt-4 mr-8">
+              View Github Repo
             </button>
-            <button className="bg-white rounded-lg text-black px-8 mt-4">
-              Code
-            </button>
+           </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
             <div className="p-2">

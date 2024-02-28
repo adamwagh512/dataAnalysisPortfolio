@@ -5,6 +5,7 @@ import Image from "next/image";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { MdOutlineEmail } from "react-icons/md";
+import Link from "next/link";
 
 const main = () => {
   return (
@@ -36,19 +37,26 @@ const main = () => {
         <div className="flex items-center justify-around my-10 md:mx-10 w-full sm:w-[80%]">
         <div className="text-xs text-center ">
           <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+           <a href="https://www.linkedin.com/in/adam-wagh/">
             <FaLinkedinIn color="#033E8C" size={25} />
+            </a>
           </div>
           LinkedIn
           </div>
+          
         <div>
           <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+            <a href="mailto:adamwagh@gmail.com">
             <MdOutlineEmail color="#033E8C" size={25} />
+            </a>
           </div>
           <p className="text-xs text-center">Email</p>
           </div>
           <div>
           <div className="rounded-full shadow-lg shadow-gray-700 p-3 cursor-pointer hover:scale-105 ease-in duration-500 bg-[#80F2E7]">
+          <Link href='/assets/documents/AdamWagh_DataResume.pdf' download target="_blank">
             <BsPersonLinesFill color="#033E8C" size={25} />
+          </Link>
           </div>
           <p className="center text-xs">Resume</p>
           </div>

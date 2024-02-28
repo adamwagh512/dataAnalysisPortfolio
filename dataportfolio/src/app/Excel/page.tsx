@@ -5,6 +5,8 @@ import Excel2 from "../../../public/assets/excel2.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
+
+
 const page = () => {
   return (
     <>
@@ -31,20 +33,13 @@ const page = () => {
             <p className="">Project</p>
             <p className="font-bold text-2xl">Overview</p>
             <p className="py-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Employing advanced techniques such as VLOOKUPs and pivot tables, this project represented a significant leap in my Excel proficiency, showcasing the power of these tools in analyzing complex datasets. Through the creation of dynamic dashboards, I discovered that Excel could not only handle but efficiently visualize large volumes of data, revolutionizing my approach to data analysis and visualization. This project, centered around Excel dashboard data from a multinational clothing retailer, provided invaluable insights into sales trends, customer behavior, and product performance on a global scale. 
             </p>
-            <button className="bg-white rounded-lg text-black px-8 mt-4 mr-8">
-              Demo
+            <Link href='/assets/documents/excelDashboard.xlsx' download>
+            <button className="bg-[#80F2E7] rounded-lg text-black px-5 py-3 mt-4 mr-8">
+              Download Excel Workbook
             </button>
-            <button className="bg-white rounded-lg text-black px-8 mt-4">
-              Code
-            </button>
+            </Link>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
             <div className="p-2">

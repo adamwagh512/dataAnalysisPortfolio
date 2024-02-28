@@ -31,20 +31,13 @@ const page = () => {
             <p className="">Project</p>
             <p className="font-bold text-2xl">Overview</p>
             <p className="py-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+This project marked my initial exploration into utilizing Tableau's story feature, representing a significant step forward in my data visualization journey. In addition to employing this innovative storytelling tool, the project encompasses several dynamic dashboards aimed at providing comprehensive insights into furniture superstore sales. These dashboards include detailed sales reports categorized by state, monthly sales summaries, and an exploratory dashboard designed to uncover hidden patterns and trends within the dataset. Through meticulous analysis of the sales data, valuable insights were unearthed, shedding light on evolving customer preferences and market dynamics. Leveraging these data-driven insights, a compelling case was made for the establishment of a new distribution center, underscoring the transformative potential of strategic decision-making informed by thorough data analysis.
             </p>
-            <button className="bg-white rounded-lg text-black px-8 mt-4 mr-8">
-              Demo
+            <a href="https://public.tableau.com/app/profile/adam.wagh/viz/AnalysisofSuperstoreDataset/SalesReport" target="_blank">
+            <button className="bg-[#80F2E7] rounded-lg text-black px-5 py-3 mt-4 mr-8">
+              View Project
             </button>
-            <button className="bg-white rounded-lg text-black px-8 mt-4">
-              Code
-            </button>
+            </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
             <div className="p-2">

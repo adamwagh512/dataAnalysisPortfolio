@@ -31,20 +31,13 @@ const page = () => {
             <p className="">Project</p>
             <p className="font-bold text-2xl">Overview</p>
             <p className="py-10">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            In my exploration of Tesla stock data, I embarked on creating my first candlestick chart, aiming to delve into the stock's price fluctuations, trends, and the overarching market sentiment over a substantial timeframe. This project served as a significant milestone in my journey as a data analyst, marking my initiation into the realm of candlestick charting and offering valuable insights into enhancing data visualization techniques. Through this endeavor, I discovered innovative approaches to amplify the clarity and interpretability of financial data, solidifying my understanding of effective visualization practices. Reflecting on this experience, I realized the importance of continuous learning and experimentation in refining my skills as a data analyst.
             </p>
-            <button className="bg-white rounded-lg text-black px-8 mt-4 mr-8">
-              Demo
+            <a href="https://public.tableau.com/app/profile/adam.wagh/viz/TSLAStockCandlestickChart/TSLACandlestickChart" target="_blank">
+            <button className="bg-[#80F2E7] rounded-lg text-black px-5 py-3 mt-4 mr-8">
+              View Stock Chart
             </button>
-            <button className="bg-white rounded-lg text-black px-8 mt-4">
-              Code
-            </button>
+            </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-800 rounded-xl p-4">
             <div className="p-2">
