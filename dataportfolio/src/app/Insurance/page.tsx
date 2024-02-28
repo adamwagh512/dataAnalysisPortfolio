@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import Insurance2 from "../../../public/assets/insurance2.jpg";
+import Insurance3 from "../../../public/assets/insurance3.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ const page = () => {
         <div className="w-screen h-[30vh] lg:h-[40vh] relative">
           <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
           <Image
-            src={Insurance2}
+            src={Insurance3}
             alt="/"
             className="absolute z-1"
             layout="fill"
