@@ -1,5 +1,5 @@
 import React from "react";
-import updatedphoto from "../../public/assets/updatedphoto.png";
+import updatedphoto from "../../public/assets/updatedphoto2.png";
 import Image from "next/image";
 
 const about = () => {
