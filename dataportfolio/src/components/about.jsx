@@ -10,13 +10,13 @@ const about = () => {
       <div className="flex flex-col items-center md:flex-row py-4 px-4 md:tracking-widest md:leading-loose md:items-start md:text-xl">
         <Image className="" src={updatedphoto} />
         <p className="py-5 px-4 md:py-0">
-          With nearly a decade of frontline experience as a paramedic, I've
+          With nearly a decade of frontline experience as a paramedic, I&apos;ve
           cultivated a unique skill set that seamlessly transitions into the
           realm of data analysis. My time in emergency response has endowed me
           with the ability to maintain composure under pressure, make decisive
           yet well-informed choices, and adeptly adapt to swiftly changing
           circumstances. In the high-stakes environment of emergency care,
-          meticulous attention to detail isn't just a preference – it's a
+          meticulous attention to detail isn&apos;t just a preference – it&apos;s a
           life-saving imperative. This exacting standard naturally extends to my
           approach to data analysis, where precision and accuracy are paramount
           for deriving meaningful insights. As I pivot towards data analysis, I

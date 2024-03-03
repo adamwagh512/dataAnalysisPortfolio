@@ -23,7 +23,7 @@ const main = () => {
         </p>
         <br />
         <p className="text-xl leading-loose tracking-wide">
-          Welcome! I'm thrilled to have you join me on my data analyst journey.
+          Welcome! I&apos;m thrilled to have you join me on my data analyst journey.
           As an aspiring data analyst, I am driven by a passion for unraveling
           insights hidden within datasets and translating them into actionable
           solutions. With a keen eye for detail and a hunger for continuous
